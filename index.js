@@ -22,7 +22,7 @@ function iLoveTheBeatles(number){
   var i =0;
   do{
     num[i] = "I love the Beatles!";
-    i++;
+    i+=number;
     if (number==17){
       return num
     }
